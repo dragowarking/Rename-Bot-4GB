@@ -1,5 +1,6 @@
 import asyncio
-from pyrogram import Client, idle
+from pyrogram import Client
+from pyrogram.methods.utilities.idle import idle
 from plugins.cb_data import init_user_client
 from config import *
 import pyromod  # keep if your plugins use pyromod
